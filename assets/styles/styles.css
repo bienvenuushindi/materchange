@@ -187,14 +187,12 @@ li {
 
 .theme-text-gradient-2 {
   background: linear-gradient(to right, #e8d33f, #06d6a0, #e8d33f);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .theme-text-gradient-2 p {
   background: linear-gradient(to bottom left, #ddd 30%, #06d6a0 100%);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -370,8 +368,8 @@ a:hover {
 }
 
 .partner-list {
-   margin-bottom: 3rem;
-   margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
 }
 
 .headline,
@@ -383,7 +381,7 @@ section,
 
 .background {
   background-image: url(../images/vision.jpg);
-  background-position: top 10%;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
